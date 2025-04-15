@@ -226,15 +226,7 @@ marshmallow
 matplotlib
 matplotlib-inline
 mdurl
-mecab-ko
-mecab-ko-dic
-mecab-python
-mecab-python3
 mistune
-mkl
-mkl-fft 
-mkl-random 
-mkl-service
 ml-dtypes
 mmh3
 monotonic
