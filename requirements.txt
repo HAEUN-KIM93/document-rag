@@ -7,7 +7,6 @@ pydantic==2.10.6
 python-dotenv==1.0.1
 streamlit==1.38.0
 yfinance==0.2.54
+rich==13.7.1
 langchain-community
-
-
 tavily
