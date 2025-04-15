@@ -362,10 +362,6 @@ python-pptx
 python-slugify
 pytz
 pywavelets 
-pywin32
-pywin32-ctypes
-pywinpty
-PyYAML
 pyzmq
 ragas
 rank-bm25
