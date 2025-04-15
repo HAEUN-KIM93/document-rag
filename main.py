@@ -1,10 +1,9 @@
 import streamlit as st
 import rag_chain
-import olefile
+
 
 import tempfile
-import asyncio
-import sys
+
 from tavily import TavilyClient
 TAVILY_API_KEY = st.secrets["TAVILY_API_KEY"]  # 또는 os.getenv("TAVILY_API_KEY")
 client = TavilyClient(api_key=TAVILY_API_KEY)
