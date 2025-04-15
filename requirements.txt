@@ -9,4 +9,4 @@ streamlit==1.38.0
 yfinance==0.2.54
 rich==13.7.1
 langchain-community==0.3.15
-tavily
+tavily-python==0.5.0
