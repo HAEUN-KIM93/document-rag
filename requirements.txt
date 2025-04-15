@@ -101,14 +101,11 @@ flatbuffers
 folium
 fonttools
 fqdn
-
 frozendict
 frozenlist
 fsspec
 ftfy
 gast
-GDAL
-gensim
 geopandas
 gitdb
 GitPython
