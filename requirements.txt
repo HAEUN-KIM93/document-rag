@@ -8,5 +8,5 @@ python-dotenv==1.0.1
 streamlit==1.38.0
 yfinance==0.2.54
 rich==13.7.1
-langchain-community
+langchain-community==0.3.15
 tavily
