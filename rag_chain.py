@@ -2,10 +2,12 @@
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_community.chat_models import ChatOllama
+
 import olefile
 import pandas as pd
 import tempfile
 from langchain.embeddings import HuggingFaceEmbeddings
+
 from langchain.docstore.document import Document
 from langchain_openai import ChatOpenAI
 from langchain_openai.embeddings import OpenAIEmbeddings
@@ -42,10 +44,12 @@ def excel_sheets_to_documents(file):
     return docs
 class rag:
     def __init__(self):
-        self.model=ChatOllama(model='exaone3.5:7.8b')
-        self.embedding = HuggingFaceEmbeddings(
-    model_name="BAAI/bge-small-en"  # 또는 "sentence-transformers/all-MiniLM-L6-v2"
-)
+        #self.model=ChatOllama(model='exaone3.5:7.8b')
+        self.model=ChatOpenAI(model='gpt-4o')
+#         self.embedding = HuggingFaceEmbeddings(
+#     model_name="BAAI/bge-small-en"  # 또는 "sentence-transformers/all-MiniLM-L6-v2"
+# )
+        self.embedding=OpenAIEmbeddings()
         self.chat_history=[]
         self.vectorstore=None
     def rag_chain(self,file_name,type):
@@ -61,9 +65,9 @@ class rag:
         text_splitter=RecursiveCharacterTextSplitter(chunk_size=1000,chunk_overlap=100)
         split_document=text_splitter.split_documents(docs)
         self.vectorstore=FAISS.from_documents(
-    documents=split_document,
-    embedding=self.embedding
-) 
+        documents=split_document,
+        embedding=self.embedding
+    ) 
 
         retriever=self.vectorstore.as_retriever()
         prompt=PromptTemplate.from_template(self.get_template())
