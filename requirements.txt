@@ -29,8 +29,8 @@ blinker
 blis
 boto3
 botocore
-branca @ file:///C:/ci_311/branca_1677725401139/work
-Brotli @ file:///C:/ci_311/brotli-split_1676435766766/work
+branca 
+Brotli 
 build
 cachetools
 catalogue
@@ -41,24 +41,24 @@ charset-normalizer
 chroma-hnswlib
 chromadb
 click
-click-plugins @ file:///Users/ktietz/demo/mc3/conda-bld/click-plugins_1630665883852/work
+click-plugins 
 cligj
 cloudpathlib
-cloudpickle @ file:///C:/b/abs_3796yxesic/croot/cloudpickle_1683040098851/work
+cloudpickle
 cohere
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+colorama
 coloredlogs
 comm
 confection
 contourpy
 cryptography
-cycler @ file:///home/conda/feedstock_root/build_artifacts/cycler_1696677705766/work
+cycler 
 cymem
-cytoolz @ file:///C:/b/abs_d43s8lnb60/croot/cytoolz_1701723636699/work
-dask @ file:///C:/b/abs_1899k8plyj/croot/dask-core_1701396135885/work
+cytoolz 
+dask 
 dataclasses-json
 datasets
-de-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/de_core_news_sm-3.7.0/de_core_news_sm-3.7.0-py3-none-any.whl#sha256
+
 debugpy
 decorator
 deepl
@@ -73,7 +73,6 @@ docker-pycreds
 docutils
 docx2txt
 durationpy
-easyocr @ file:///C:/b/abs_7box8spgdj/croot/easyocr_1692816857441/work
 EbookLib
 editdistance
 effdet
@@ -81,7 +80,7 @@ einops
 elastic-transport
 elasticsearch
 emoji
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl#sha256
+
 environs
 et_xmlfile
 etils
@@ -99,11 +98,10 @@ fire
 FlashRank
 Flask
 flatbuffers
-folium @ file:///C:/ci_311/folium_1677742993254/work
+folium
 fonttools
 fqdn
-fr-core-news-md @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_md-3.7.0/fr_core_news_md-3.7.0-py3-none-any.whl#sha256
-fr-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/fr_core_news_sm-3.7.0/fr_core_news_sm-3.7.0-py3-none-any.whl#sha256
+
 frozendict
 frozenlist
 fsspec
@@ -111,10 +109,10 @@ ftfy
 gast
 GDAL
 gensim
-geopandas @ file:///C:/b/abs_ebo_znoutm/croot/geopandas-split_1704929042528/work
+geopandas
 gitdb
 GitPython
-gmpy2 @ file:///C:/ci_311/gmpy2_1677743390134/work
+gmpy2 
 google-ai-generativelanguage
 google-api-core
 google-api-python-client
@@ -141,8 +139,8 @@ httpx-sse
 huggingface-hub
 humanfriendly
 idna
-imagecodecs-lite @ file:///D:/bld/imagecodecs-lite_1695649335859/work
-imageio @ file:///C:/b/abs_aeqerw_nps/croot/imageio_1707247365204/work
+imagecodecs-lite
+imageio 
 import-ipynb
 importlib_metadata
 importlib_resources
@@ -188,7 +186,7 @@ keyrings.alt
 kiwipiepy
 kiwipiepy_model
 kiwisolver
-ko-core-news-sm @ https://github.com/explosion/spacy-models/releases/download/ko_core_news_sm-3.7.0/ko_core_news_sm-3.7.0-py3-none-any.whl#sha256
+ko-core-news-sm 
 konlpy
 kubernetes
 langchain
@@ -216,17 +214,17 @@ langgraph-sdk
 langsmith
 lark
 layoutparser
-lazy_loader @ file:///C:/b/abs_3bn4_r4g42/croot/lazy_loader_1695850158046/work
+lazy_loader 
 libclang
 lightning-utilities
 llama-index-core
 llama-index-readers-file
 llama-parse
 lmdb
-locket @ file:///C:/ci_311/locket_1676428325082/work
+locket 
 lxml
 lz4
-mapclassify @ file:///C:/ci_311/mapclassify_1678299389803/work
+mapclassify 
 Markdown
 markdown-it-py
 MarkupSafe
@@ -240,8 +238,8 @@ mecab-python
 mecab-python3
 mistune
 mkl
-mkl-fft @ file:///C:/b/abs_19i1y8ykas/croot/mkl_fft_1695058226480/work
-mkl-random @ file:///C:/b/abs_edwkj1_o69/croot/mkl_random_1695059866750/work
+mkl-fft 
+mkl-random 
 mkl-service
 ml-dtypes
 mmh3
@@ -302,8 +300,8 @@ pandas
 pandoc
 pandocfilters
 parso
-partd @ file:///C:/b/abs_46awex0fd7/croot/partd_1698702622970/work
-patsy @ file:///home/conda/feedstock_root/build_artifacts/patsy_1704469236901/work
+partd 
+patsy
 pdf2image
 pdfminer.six
 pdfplumber
@@ -329,7 +327,7 @@ protobuf
 psutil
 pulsar-client
 pure_eval
-py-cpuinfo @ file:///home/conda/feedstock_root/build_artifacts/py-cpuinfo_1666774466606/work
+py-cpuinfo 
 pyarrow
 pyarrow-hotfix
 pyasn1
@@ -350,13 +348,13 @@ pyparsing
 pypdf
 pypdfium2
 PyPika
-pyproj @ file:///C:/b/abs_d9objdxwcx/croot/pyproj_1704901312909/work
+pyproj 
 pyproject_hooks
 pyreadline3
 pysbd
-PySocks @ file:///C:/ci_311/pysocks_1676425991111/work
+PySocks
 pytesseract
-python-bidi @ file:///C:/ci_311/python-bidi_1676491100158/work
+python-bidi 
 python-dateutil
 python-docx
 python-dotenv
@@ -369,7 +367,7 @@ python-multipart
 python-pptx
 python-slugify
 pytz
-pywavelets @ file:///C:/b/abs_7est386xsb/croot/pywavelets_1705049855879/work
+pywavelets 
 pywin32
 pywin32-ctypes
 pywinpty
@@ -392,13 +390,13 @@ roboflow
 rouge_score
 rpds-py
 rsa
-Rtree @ file:///C:/ci_311/rtree_1676455758391/work
+Rtree 
 ruamel.yaml
 ruamel.yaml.clib
 s3transfer
 sacrebleu
 safetensors
-scikit-image @ file:///C:/b/abs_2075zg1pia/croot/scikit-image_1682528361447/work
+scikit-image 
 scikit-learn
 scipy
 seaborn
@@ -424,7 +422,7 @@ SQLAlchemy
 srsly
 stack-data
 starlette
-statsmodels @ file:///D:/bld/statsmodels_1702575579547/work
+statsmodels 
 streamlit
 striprtf
 sympy
@@ -448,16 +446,16 @@ tf_keras
 thinc
 thop
 threadpoolctl
-tifffile @ file:///home/conda/feedstock_root/build_artifacts/tifffile_1591280222285/work
+tifffile
 tiktoken
 timm
 tinycss2
 tokenizers
 toml
-toolz @ file:///C:/ci_311/toolz_1676431406517/work
+toolz 
 torch
 torchaudio
-torchdata @ file:///D:/a/_temp/conda_build_env/conda-bld/torchdata_1698872217676/work
+torchdata 
 torcheval
 torchmetrics
 torchsummary
@@ -475,7 +473,7 @@ typing-inspect
 typing_extensions
 tzdata
 ujson
-ultralytics @ file:///home/conda/feedstock_root/build_artifacts/ultralytics_1712534645747/work
+ultralytics 
 unidic-lite
 unstructured
 unstructured-inference
@@ -499,12 +497,12 @@ Werkzeug
 wget
 widgetsnbextension
 wikipedia
-win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
+win-inet-pton
 wrapt
 xlrd
 XlsxWriter
 xxhash
-xyzservices @ file:///C:/ci_311/xyzservices_1676434829315/work
+xyzservices 
 yarl
 yfinance
 zipp
