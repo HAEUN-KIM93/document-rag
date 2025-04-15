@@ -404,9 +404,6 @@ smart-open
 smmap
 sniffio
 soupsieve
-spacy
-spacy-legacy
-spacy-loggers
 split-folders
 SQLAlchemy
 srsly
