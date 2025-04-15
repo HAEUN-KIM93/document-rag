@@ -182,9 +182,6 @@ keyring
 keyrings.alt
 kiwipiepy
 kiwipiepy_model
-kiwisolver
-ko-core-news-sm 
-konlpy
 kubernetes
 langchain
 langchain-anthropic
