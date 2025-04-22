@@ -13,3 +13,4 @@ tavily-python==0.5.0
 olefile==0.47
 openpyxl==3.1.5
 faiss-cpu==1.8.0.post1
+pypdf
